@@ -1,8 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     color:#949494;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+   
 }
 .header{
     display:flex;
@@ -11,7 +15,7 @@ a{
     background: #dcdcdc;
     color: #8f8f8f;
     font-family:'Lucida Sans';
-    border-radius: 8px;
+    
 }
 .header__section{
     display: flex;
@@ -25,6 +29,7 @@ a{
 .headerButton:hover{
  background-color: rgb(255, 255, 255);
  border-radius: 8px;
+ transition: 0.5s;
 }
 .headerlogo{
     font-weight: bolder;
@@ -65,14 +70,14 @@ a{
 }
 
 .dot{
-    color:#808080;
+    color:#474747;
     cursor: pointer;
     height: 13px;
     width: 13px;
     margin: 0px 6px;
     border-radius:50%;
     display: inline-flex;
-    transition:0.6% ease;
+    transition: 0.5s;
 }
 
 .active, .dot:hover{
