@@ -99,3 +99,26 @@ a{
     from{opacity: 0};
     to{opacity: 1}
 }
+
+.footer {
+    background: #eaeaea;
+    color: #8f8f8f;
+    display: grid;
+    grid-template-areas: 
+    "footerLogo contacts";
+    grid-template-columns: 1fr 0.2fr ;
+    font-family:'Lucida Sans';
+    padding:10px;
+    
+}
+
+.footerLogo{
+    margin-left: 100px;
+   margin-top: 15px;
+   font-weight: bolder;
+   color: #282828;
+   
+}
+.contacts {
+    margin-top: 10px;
+}
